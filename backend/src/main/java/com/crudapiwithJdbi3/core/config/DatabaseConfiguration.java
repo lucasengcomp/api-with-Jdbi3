@@ -1,4 +1,4 @@
-package com.crudapiwithJdbi3.config;
+package com.crudapiwithJdbi3.core.config;
 
 import org.jdbi.v3.core.Jdbi;
 import org.jdbi.v3.postgres.PostgresPlugin;
