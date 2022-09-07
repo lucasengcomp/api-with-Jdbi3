@@ -1,4 +1,4 @@
-package com.crudapiwithJdbi3.domain.author.entitie;
+package com.crudapiwithJdbi3.core.exception.resource;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,15 +6,14 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Author implements Serializable {
+public class FieldMessage implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private Long id;
+    private String fieldName;
+    private String message;
 
-    private String lastname;
-
-    private String firstname;
 }
